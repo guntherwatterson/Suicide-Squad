@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int n;
+    int sum = 0, temp;
+    cout << "Nhap so nguyen : ";
+    cin >> n;
+    while (n != 0) {
+        temp = n % 10;
+        if (temp % 2 == 0)
+            sum += temp;
+        n /= 10;
+    }
+    cout << "Tong cac so chan trong so nguyen la: " << sum;
+    system("pause");
+    return 0;
+}
