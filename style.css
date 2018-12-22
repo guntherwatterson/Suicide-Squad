@@ -1,0 +1,247 @@
+a:link, a:visited { color: red; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: red; text-decoration: underline;}
+#container{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background: #999999 repeat-y;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    line-height: 1.5cm; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Verdana, Arial, san-serif; 
+    font-size: 11px; 
+    color: #FFFFFF; 
+    background: #000000;
+}
+img {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+
+#menustyle li a:hover, #menustyle li .current{
+    color: red;
+}
+#menustyle {
+    clear: both; 
+    width: 960px; 
+    height: 45px; 
+    background: url(images/thanhmenu.jpg) no-repeat;
+}
+#menustyle ul{
+    padding: 0 0 0 0; 
+    margin: 0; 
+    list-style: none;
+}
+#menustyle ul li{
+    display: inline;
+}
+#menustyle ul li a{
+    float: left;
+    padding: 0 20px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-decoration: none; 
+    color: yellow;
+}
+
+
+#header{
+    clear: both;
+    width: 960px;
+    height: 285px;
+    padding: 0;
+    margin: 0;
+    background: url(images/trangchu.jpg);
+}
+
+
+
+#content{
+    height: 980px;
+    clear: both;
+    width: 960px;
+    padding: 0;
+}
+#content #content_left{
+    float: left;
+    width: 188px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid yellow; 
+}
+#content #content_right{
+    float: right;
+    width: 750px;
+}
+#content_left .content_left_section{
+    clear: both;
+    padding-bottom: 10px;
+    border-bottom: 0px solid red;
+    margin-bottom: 20px;
+}
+.content_left_section h1{
+    font-size: 15px;
+    color: yellow;
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted yellow;
+}
+.content_left_section ul{
+    padding: 0;
+    margin: 0;
+}
+.content_left_section ul li{
+    padding: 0 0 3px 10px;
+    list-style: none; 
+}
+.content_left_section ul li a{
+    font-weight: normal;
+    text-decoration: none;
+    color:red;
+    font-size: 15px;
+}
+.content_left_section li a:hover, .content_left_section li .current{
+    color: yellow;
+}
+
+
+
+#content_right .product_box{
+    float: left;
+    background-color: black;
+    width: 355px;
+    height: 490px;
+    padding: 10px;
+    border: 1px;
+}
+#content_right h1{
+    padding: 10px;
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    color: yellow;
+    background: black;
+}
+
+#content_right h3{
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: red;
+}
+#content_right ul{
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style: none;
+}
+#content_right li{
+    padding: 0 0 3px 0;
+}
+#content_right p{
+    text-align: justify;
+    padding: 0 0 8px 0;
+}
+.product_box img{
+    float: left;
+    margin-right: 20px;
+}
+.product_box .product_info{
+    float: left;
+    width: 220px;
+}
+.product_info p{
+    margin-bottom: 15px;
+}
+
+
+
+.buy_now_button a{
+    clear: both;
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 4px 0 5px 0;
+    margin-bottom: 3px; 
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buy_now_button a:hover{
+    color: yellow;
+}
+
+.detail_button a{
+    clear: both;
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 4px 0 5px 0;
+    margin-bottom: 3px; 
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.detail_button a:hover{
+    color: yellow;
+}
+
+
+
+#footer{
+    clear: both;
+    width: 960px;
+    padding: 20px 0px 20px 0;
+    text-align: center;
+    border-top: 1px solid white;
+    color: yellow;
+    background-color: black;
+}
+
+#footer a{
+    color: white;
+    font-weight: normal;
+}
+
+
+.cleaner_with_height{
+    clear: both;
+    width: 100%;
+    height: 30px;
+    font-size: 1px;
+}
+
+.cleaner{
+    clear: both;
+    width: 100%;
+    height: 1px;
+    font-size: 1px;
+}
+
+.cleaner_with_width {
+    float: left;
+    width: 20px;
+    height: 30px;
+    font-size: 1px; 
+}
+
+.lef{
+    color: white;
+    background-color: black;
+    border-bottom: 1px;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.lef h3{
+    color: red;
+}
